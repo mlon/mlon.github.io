@@ -2,7 +2,13 @@
 //
 // Headings, body text, lists, and other misc typographic elements.
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
   margin-bottom: .5rem;
   font-weight: 600;
   line-height: 1.25;
@@ -23,7 +29,9 @@ h3 {
   font-size: 1.25rem;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -33,7 +41,9 @@ p {
   margin-bottom: 1rem;
 }
 
-ul, ol, dl {
+ul,
+ol,
+dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -56,7 +66,7 @@ hr {
 abbr {
   font-size: 85%;
   font-weight: bold;
-  color: var(--gray-600);
+  color: var(--body-color);
   text-transform: uppercase;
 
   &[title] {
@@ -68,7 +78,7 @@ abbr {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: var(--gray-500);
+  color: var(--body-color);
   border-left: .25rem solid var(--border-color);
 
   p:last-child {
