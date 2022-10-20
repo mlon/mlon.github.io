@@ -25,5 +25,12 @@
 	"postCreateCommand": "sh .devcontainer/post-create.sh",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+	"remoteUser": "vscode",
+	"extensions": [
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "kamikillerto.vscode-colorize",
+		"eliostruyf.vscode-front-matter",
+		"ginfuru.ginfuru-vscode-jekyll-syntax"
+  ]
 }
