@@ -5,7 +5,7 @@ description: ''
 url: http://mlon.com
 baseurl: ''
 paginate: 2
-permalink: /:slug:output_ext
+permalink: /:slug
 
 # About/contact
 author:
@@ -38,4 +38,4 @@ sass:
   style: :compressed
 
 # Custom vars
-# google_analytics_id: #UA-XXXX-Y
+google_analytics_id: UA-140787525-1

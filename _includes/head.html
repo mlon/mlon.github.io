@@ -16,9 +16,9 @@
     href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@300;700&family=Jost:wght@600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="{{ 'styles.css' | relative_url }}">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144"
-    href="{{ '/assets/apple-touch-icon-precomposed.png' | relative_url }}">
-  <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/favicon-light.png' | relative_url }}" media="(prefers-color-scheme:no-preference)">
+  <link rel="icon" href="{{ '/assets/favicon-dark.png' | relative_url }}" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="{{ '/assets/favicon-light.png' | relative_url }}" media="(prefers-color-scheme: light)">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ 'atom.xml' | relative_url }}">
 
   {% seo title=false %}
