@@ -2,8 +2,8 @@
 title: mlon
 # tagline: 'making lots of noise'
 description: ''
-url: http://mlon.com
-baseurl: ''
+url: https://mlon.com
+baseurl: '/'
 paginate: 2
 permalink: /:slug
 
