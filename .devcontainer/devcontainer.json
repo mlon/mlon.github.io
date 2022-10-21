@@ -31,5 +31,9 @@
     "eamodio.gitlens",
     "kamikillerto.vscode-colorize",
 		"ginfuru.ginfuru-vscode-jekyll-syntax"
-  ]
+  ],
+	"features": {
+    "git": "latest",
+    "github-cli": "latest"
+  }
 }
