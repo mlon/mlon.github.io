@@ -1,9 +1,9 @@
 # Setup
 title: mlon
 # tagline: 'making lots of noise'
-description: ''
+description: ""
 url: https://mlon.com
-baseurl: '/'
+baseurl: "/"
 paginate: 2
 permalink: /:slug
 
@@ -35,7 +35,7 @@ exclude:
 
 sass:
   sass_dir: _sass
-  style: :compressed
+  style: compressed
 
 # Custom vars
 google_analytics_id: UA-140787525-1
